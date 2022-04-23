@@ -1,0 +1,272 @@
+:root {
+    --colorOne: #000000;
+    --colorTwo: #ffffff;
+    --colorThree: #ff3600;
+    --colorFour: #0000ff;
+    --colorFive: #29b29b;
+    --colorSix: #ff605e;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    color: var(--colorTwo);
+    font-family: monospace;
+
+    background-color: var(--colorOne);
+
+    overflow: hidden; /*hide scrollbars*/
+}
+
+.container {
+    max-width: 450px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0.3;
+    background-color: black;
+}
+
+/* navbar */
+.navBar {
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+    overflow: hidden;
+}
+
+.navBar a {
+    display: flex;
+    height: fit-content;
+}
+
+.navImg {
+    height: 60px;
+    width: 60px;
+    background-image: url("./img/jpg/logo.jpeg");
+    background-size: contain;
+    border-radius: 40px;
+}
+
+.navLinkBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.navLinkBox a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--colorTwo);
+    color: var(--colorTwo);
+    text-transform: lowercase;
+}
+
+.scrollSnapContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    flex: none;
+    flex-flow: column nowrap;
+    scroll-snap-type: y mandatory;
+}
+
+.scrollSnapContainer section {
+    min-height: 100%;
+    scroll-snap-align: start;
+    flex: none;
+}
+
+/* sections */
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionContent {
+    height: 100%;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.contentBox {
+    padding: 10px;
+    border: 5px solid var(--colorTwo);
+}
+
+.linkBox {
+    width: fit-content;
+    padding: 10px;
+    padding-right: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.linkBox a {
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--colorTwo);
+    color: var(--colorTwo);
+    text-transform: lowercase;
+}
+
+.sectionFacts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#eventA {
+    background-image: url(./img/gif/ufoxflf.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#eventB {
+    background-image: url(./img/jpg/klfusion_sun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#artistA {
+    background-image: url(./img/jpg/artistA.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#artistB {
+    background-image: url(./img/jpg/artistB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#artistC {
+    background-image: url(./img/jpg/artistC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* artists */
+#artists a {
+    text-decoration: none;
+    color: var(--colorTwo);
+}
+
+#artists h3 {
+    text-transform: uppercase;
+}
+
+/* links */
+.noDeco {
+    text-decoration: none;
+}
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    margin: 5px;
+    color: var(--colorTwo);
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.navBar h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+model-viewer {
+    width: 100%;
+    height: 100vh;
+}
+
+/* buttons */
+button {
+    height: fit-content;
+    width: fit-content;
+
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+
+    background: transparent;
+    border: 3px solid var(--colorTwo);
+
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border-style: outset;
+    border: 0;
+}
