@@ -10,6 +10,7 @@
 body {
     min-height: 100vh;
     max-width: 100%;
+    overflow-x: hidden;
 
     display: flex;
     flex-direction: column;
@@ -23,17 +24,11 @@ body {
     font-family: monospace;
 
     background-color: var(--colorOne);
-
-    overflow-x: hidden; /*hide scrollbars*/
 }
 
 .container {
-    width: 90%;
     max-width: 500px;
-    margin-right: 30px;
-    margin-left: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: auto;
 }
 
 .background {
@@ -58,18 +53,16 @@ body {
 .navBar {
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 
-    width: 100%;
+    width: 90%;
     height: 80px;
 
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
     align-items: center;
-
-    padding: 15px;
-    overflow: hidden;
 }
 
 .navBar a {
@@ -127,9 +120,9 @@ section {
 
 .sectionContent {
     height: 100%;
-    width: 100%;
+    width: 90%;
     padding-top: 110px;
-    padding-bottom: 200px;
+    padding-bottom: 110px;
 
     display: flex;
     flex-direction: column;
