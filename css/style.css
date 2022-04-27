@@ -41,14 +41,14 @@ body {
     width: 100%;
     height: 90vh;
 
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     
-    opacity: 0.3;
+    opacity: 0.5;
     background-color: black;
 }
 
@@ -164,37 +164,38 @@ section {
 }
 
 #eventA {
-    background-image: url(./img/gif/ufoxflf.gif);
+    background-image: url(/img/gif/ufoxflf.gif);
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #eventB {
-    background-image: url(./img/jpg/klfusion_sun.jpg);
+    background-image: url(/img/jpg/klfusion_sun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #artistA {
-    background-image: url(./img/jpg/artistA.jpeg);
+    background-image: url(/img/jpg/artistA.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
 #artistB {
-    background-image: url(./img/jpg/artistB.jpg);
+    background-image: url(/img/jpg/artistB.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #artistC {
-    background-image: url(./img/jpg/artistC.jpg);
+    background-image: url(/img/jpg/artistC.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
