@@ -222,6 +222,21 @@ section {
     text-transform: uppercase;
 }
 
+/* awareness */
+.awareness {
+    background-image: url(/img/png/bg_awareness.png);
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.awareness .sectionContent {
+    justify-content: center;
+    text-align: justify;
+}
+
 /* links */
 .noDeco {
     text-decoration: none;
