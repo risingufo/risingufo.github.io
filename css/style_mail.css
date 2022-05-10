@@ -19,6 +19,9 @@ body {
 
     background-color: var(--colorOne);
     font-family: monospace;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .box {
