@@ -39,17 +39,7 @@ body {
     z-index: -1;
 
     width: 100%;
-    height: 90vh;
-
-    padding-bottom: 100px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    opacity: 0.5;
-    background-color: black;
+    height: 100vh;
 }
 
 /* navbar */
@@ -95,7 +85,6 @@ body {
     color: var(--colorTwo);
     text-transform: lowercase;
 }
-
 
 /* scroll snap container */
 .scrollSnapContainer {
@@ -164,6 +153,14 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#home {
+    background-image: url(/img/png/bg_awareness.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #eventA {
