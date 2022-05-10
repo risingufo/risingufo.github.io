@@ -78,7 +78,7 @@ body {
     align-items: center;
 }
 
-.navLinkBox a {
+.navLink {
     margin-right: 10px;
     text-decoration: none;
     border-bottom: 1px solid var(--colorTwo);
