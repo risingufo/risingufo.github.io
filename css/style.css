@@ -83,12 +83,13 @@ body {
 
 .navLinkBox {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .navLinkBox a {
+    margin-right: 10px;
     text-decoration: none;
     border-bottom: 1px solid var(--colorTwo);
     color: var(--colorTwo);
