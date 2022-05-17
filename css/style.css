@@ -206,6 +206,13 @@ section {
     background-position: center;
 }
 
+#artistD {
+    background-image: url(/img/jpg/artistD.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media only screen and (min-width: 600px) {
     #artistA {
         background-size: contain;
