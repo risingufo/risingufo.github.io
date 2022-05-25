@@ -166,7 +166,7 @@ section {
     background-image: url(/img/jpg/home_bg_c.jpg);
     background-color: transparent;
     background-repeat: no-repeat;
-    background-size: 105% cover;
+    background-size: cover;
     background-position: bottom;
 }
 
