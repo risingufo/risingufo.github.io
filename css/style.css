@@ -166,8 +166,8 @@ section {
     background-image: url(/img/jpg/home_bg_c.jpg);
     background-color: transparent;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
+    background-size: cover;
+    background-position: center;
 }
 
 #eventA {
@@ -214,6 +214,10 @@ section {
 }
 
 @media only screen and (min-width: 600px) {
+    #home {
+        background-size: contain;
+    }
+
     #artistA {
         background-size: contain;
     }
@@ -221,7 +225,6 @@ section {
     #artistC {
         background-size: contain;
     }
-
 } 
 
 /* artists */
