@@ -100,6 +100,10 @@ body {
     text-transform: lowercase;
 }
 
+.navLinkButton {
+    text-decoration: none;
+}
+
 /* scroll snap container */
 .scrollSnapContainer {
     width: 100%;
