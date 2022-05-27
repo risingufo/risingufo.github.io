@@ -143,6 +143,14 @@ section {
     align-items: flex-end;
 }
 
+.sectionContent a {
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--colorTwo);
+    color: var(--colorTwo);
+    text-transform: lowercase;
+}
+
 .contentBox {
     padding: 10px;
     border: 2px solid var(--colorTwo);
@@ -156,14 +164,6 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-}
-
-.linkBox a {
-    margin-left: 10px;
-    text-decoration: none;
-    border-bottom: 1px solid var(--colorTwo);
-    color: var(--colorTwo);
-    text-transform: lowercase;
 }
 
 .sectionFacts {
@@ -197,10 +197,6 @@ section {
 }
 
 #artistA {
-    background-image: url(/img/jpg/artistA.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #artistB {
@@ -211,14 +207,34 @@ section {
 }
 
 #artistC {
-    background-image: url(/img/jpg/artistC.jpg);
+}
+
+#artistD {
+}
+
+#artistE {
+    background-image: url(/img/jpg/artistE.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#artistD {
-    background-image: url(/img/jpg/artistD.JPG);
+#artistF {
+    background-image: url(/img/jpg/artistF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#artistG {
+    background-image: url(/img/jpg/artistG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#artistH {
+    background-image: url(/img/jpg/artistH.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -226,11 +242,11 @@ section {
 
 @media only screen and (min-width: 600px) {
 
-    #artistA {
+    #artistE {
         background-size: contain;
     }
 
-    #artistC {
+    #artistG {
         background-size: contain;
     }
 } 
@@ -243,6 +259,19 @@ section {
 
 #artists h3 {
     text-transform: uppercase;
+}
+
+.eventBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.eventName {
+    text-transform: lowercase;
+    transform: rotate(-90deg);
+    margin-right: -14px;
 }
 
 /* awareness */
