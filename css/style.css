@@ -173,7 +173,7 @@ section {
     justify-content: space-between;
 }
 
-#home {
+#eventA {
     background-image: url(/img/jpg/piknic_vol_1_bg.jpeg);
     background-color: transparent;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ section {
     background-position: center;
 }
 
-#eventA {
+#eventB {
     background-image: url(/img/gif/ufoxflf.gif);
     background-color: transparent;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ section {
     background-position: center;
 }
 
-#eventB {
+#eventC {
     background-image: url(/img/jpg/klfusion_sun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
