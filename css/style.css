@@ -66,7 +66,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
 }
@@ -132,6 +132,18 @@ section {
     align-items: center;
 }
 
+@keyframes infobox {
+    from{
+        padding-bottom: 200px;
+        opacity: 0%;
+    }
+
+    to{
+        padding-bottom: 130px;
+        opacity: 100%;
+    }
+}
+
 .sectionContent {
     height: 100%;
     width: 90%;
@@ -142,6 +154,9 @@ section {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+
+    animation-name: infobox;
+    animation-duration: 2s;
 }
 
 .sectionContent a {
@@ -202,6 +217,10 @@ section {
 }
 
 #artistA {
+    background-image: url(/img/jpg/Louis_Dinkgrefe_05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #artistB {
