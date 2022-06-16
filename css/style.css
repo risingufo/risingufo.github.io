@@ -193,8 +193,16 @@ section {
     justify-content: space-between;
 }
 
-#eventA {
+#home {
     background-image: url(/img/jpg/piknic_home_bg_full.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#eventA {
+    background-image: url(/img/jpg/piknic_1_night_cut.jpg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
