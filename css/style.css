@@ -280,7 +280,7 @@ section {
         background-color: transparent;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom;
+        background-position: bottom left;
     }
     
     #artistE {
