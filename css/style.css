@@ -194,7 +194,7 @@ section {
 }
 
 #home {
-    background-image: url(/img/jpg/piknic_home_bg_full.jpg);
+    background-image: url(/img/png/vol2_header_upscaled.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +202,7 @@ section {
 }
 
 #eventA {
-    background-image: url(/img/jpg/piknic_1_night_cut.jpg);
+    background-image: url(/img/jpg/piknic_home_bg_full.jpg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
