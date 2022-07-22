@@ -1,0 +1,85 @@
+:root {
+    --colorOne: #000000;
+    --colorTwo: #ffffff;
+    --colorThree: #ff3600;
+    --colorFour: #0000ff;
+    --colorFive: #29b29b;
+    --colorSix: #ff605e;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: var(--colorOne);
+
+    color: var(--colorTwo);
+    font-family: monospace;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.linkBox {
+    margin-top: 10px;
+
+    max-width: 200px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.artistLink {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+    border: 1px solid var(--colorTwo);
+    border-radius: 10px;
+    color: var(--colorTwo);
+    text-decoration: none;
+}
