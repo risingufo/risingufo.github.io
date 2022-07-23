@@ -42,6 +42,7 @@ h2 {
 h3 {
     padding: 0;
     margin: 0;
+    font-weight: 400;
 }
 
 .profile {
@@ -58,6 +59,14 @@ h3 {
     object-fit: cover;
 }
 
+.socialBox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .linkBox {
     margin-top: 10px;
 
@@ -71,8 +80,15 @@ h3 {
 
 }
 
+.socialIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: invert(1);
+    max-height: 30px;
+}
+
 .artistLink {
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     width: 100%;
